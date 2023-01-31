@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pdf-add-outline"
-version = "0.1.0"
+version = "0.1.1"
 description = "Programmatically add an outline to a PDF."
 authors = ["Sameer Ismail <38896593+sameersismail@users.noreply.github.com>"]
 readme = "README.md"
