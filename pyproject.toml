@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pdf-add-outline"
+version = "0.1.0"
+description = "Programmatically add an outline to a PDF."
+authors = ["Sameer Ismail <38896593+sameersismail@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "pdf_add_outline"}]
+repository = "https://github.com/sameersismail/pdf-add-outline"
+documentation = "https://github.com/sameersismail/pdf-add-outline"
+
+[tool.poetry.scripts]
+pdf-add-outline = "pdf_add_outline:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pikepdf = "^6.2.9"
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^23.1a1", allow-prereleases = true}
+mypy = "^0.991"
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
